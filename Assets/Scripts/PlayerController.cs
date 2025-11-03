@@ -106,9 +106,14 @@ public class PlayerController : MonoBehaviour
             winTextObject.gameObject.SetActive(true);
             winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
 
+            
+            
+
         }
 
     }
+
+   
 
 
 }
