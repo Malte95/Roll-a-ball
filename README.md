@@ -1,4 +1,5 @@
 ## 🧩 Roll-a-Ball Extended
+![Gameplay Screenshot](screenshot.jpeg)
 
 
 My first Unity project, built while learning C# and game development fundamentals.  
