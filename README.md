@@ -1,4 +1,6 @@
 ## 🧩 Roll-a-Ball Extended
+![Gameplay Screenshot](screenshot.jpeg)
+
 
 My first Unity project, built while learning C# and game development fundamentals.  
 I started from the classic “Roll-a-Ball” Unity tutorial and expanded it with new gameplay and UI systems.  
