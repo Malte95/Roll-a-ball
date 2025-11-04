@@ -15,6 +15,13 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
+    private GameManager gm;
+
+    private void Awake()
+    {
+        gm = FindAnyObjectByType<GameManager>();
+    }
+
     // Speed at which the player moves.
     public float speed = 0;
 
@@ -92,6 +99,8 @@ public class PlayerController : MonoBehaviour
 
             // Destroy the enemy GameObject.
             Destroy(GameObject.FindGameObjectWithTag("Enemy"));
+
+            if (gm != null) gm.ShowPopup();
         }
     }
 
@@ -105,6 +114,8 @@ public class PlayerController : MonoBehaviour
             // Update the winText to display "You Lose!"
             winTextObject.gameObject.SetActive(true);
             winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
+
+            if (gm != null) gm.ShowPopup();
 
             
             
