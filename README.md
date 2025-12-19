@@ -1,6 +1,12 @@
 ## 🧩 Roll-a-Ball Extended
 ![Gameplay Screenshot](screenshot.jpeg)
 
+## ▶ Play in Browser (no setup)
+https://malte95.github.io/Roll-a-ball/
+
+> Click inside the game window to focus controls (W/A/S/D or Arrow Keys).
+
+
 
 My first Unity project, built while learning C# and game development fundamentals.  
 I started from the classic “Roll-a-Ball” Unity tutorial and expanded it with new gameplay and UI systems.  
