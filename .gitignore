@@ -11,3 +11,6 @@
 *.sln
 *.user
 *.userprefs
+# Allow GitHub Pages Web build output
+!docs/
+!docs/**
