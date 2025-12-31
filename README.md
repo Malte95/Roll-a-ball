@@ -7,8 +7,10 @@ https://malte95.github.io/Roll-a-ball/
 > Click inside the game window to focus controls (W/A/S/D or Arrow Keys).
 
 My first Unity project, built while learning C# and game development fundamentals.  
-The project is based on the classic **Roll-a-Ball** tutorial from **Unity Learn**,  
-which I extended with additional gameplay logic and UI features.
+This project is based on the classic **Roll-a-Ball** tutorial from **Unity Learn**.  
+I extended the tutorial by adding a **“Play again?” feature**, allowing the player to restart the game after winning or losing without reloading the scene manually.
+
+The restart flow is handled via a central **GameManager**, which controls game state, UI messages, and input handling.
 
 ---
 
